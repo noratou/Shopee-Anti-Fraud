@@ -25,21 +25,21 @@ The project uses a clean, production-grade flat modular architecture for straigh
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
-   git clone https://github.com/YourUsername/shopee-antifraud-go.git
-   cd shopee-antifraud-go
+<pre><code>git clone [https://github.com/noratou/Shopee-Anti-Fraud.git](https://github.com/noratou/Shopee-Anti-Fraud.git)
+cd Shopee-Anti-Fraud</code></pre>
 
 2. Initialize your dependencies:
-   go mod tidy
+<pre><code>go mod tidy</code></pre>
 
 3. Create a .env file in the root directory and add your credentials:
-   GROQ_API_KEY=your_groq_api_key_here
-   MONGO_URI=your_mongodb_atlas_connection_string
+<pre><code>GROQ_API_KEY=your_groq_api_key_here
+MONGO_URI=your_mongodb_atlas_connection_string</code></pre>
 
 4. Run the complete autonomous pipeline:
-   go run .
+<pre><code>go run .</code></pre>
 
 ## 📊 Sample System Execution Flow
-=== 🚀 Starting Cross-Border Anti-Fraud Copilot ===
+<pre><code>=== 🚀 Starting Cross-Border Anti-Fraud Copilot ===
 ✅ Successfully connected to MongoDB!
 🔄 Generating synthetic cross-border traffic logs...
 🛑 [Instant Block] IP 185.220.101.5 is already in local database blacklist. Dropped from AI queue.
@@ -56,4 +56,4 @@ The project uses a clean, production-grade flat modular architecture for straigh
 }
 ⚠️  AI Detected 1 new unique threats. Saving to blocklist...
 🛡️  Processed security blacklist. Successfully synced 1 unique threats to MongoDB.
-=== Process Completed ===
+=== Process Completed ===</code></pre>
